@@ -1,0 +1,23 @@
+#welcome--container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: "Inter", sans-serif;
+}
+
+#welcome--title {
+    background: #21222A;
+    color: #00E1FF;
+    font-size: 30px;
+    font-weight: 700;
+    width: 100%;
+    margin: 0;
+    padding: 30px 10px;
+}
+
+#welcome--text {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 0 10px;
+}
