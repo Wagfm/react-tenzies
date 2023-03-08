@@ -1,23 +1,95 @@
-#welcome--container {
+#main-container {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    font-family: "Inter", sans-serif;
+
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+
+    font-family: "Karla", sans-serif;
+
+    user-select: none;
 }
 
-#welcome--title {
-    background: #21222A;
-    color: #00E1FF;
-    font-size: 30px;
-    font-weight: 700;
-    width: 100%;
+#tenzies-container {
+    display: flex;
+    flex-direction: column;
+
+    width: 320px;
+
+    padding: 20px 0;
+
+    align-items: center;
+    justify-content: center;
+
+    background: #F5F5F5;
+
+    border-radius: 10px;
+}
+
+#title {
+    color: #2B283A;
+
     margin: 0;
-    padding: 30px 10px;
+
+    font-weight: 700;
+
+    line-height: 30px;
+    font-size: 26px;
+    letter-spacing: -0.03em;
 }
 
-#welcome--text {
-    color: #FFFFFF;
+#hint {
+    color: #4A4E74;
+
+    width: 75%;
+
+    margin: 0;
+    padding: 0 0 20px 0;
+
+    font-family: "Inter", sans-serif;
     font-weight: 400;
-    font-size: 15px;
-    padding: 0 10px;
+
+    text-align: center;
+    line-height: 16px;
+    font-size: 13px;
+    letter-spacing: -0.03em;
+}
+
+#dices-container {
+    display: grid;
+    grid-template: repeat(2, auto) / repeat(5, 1fr);
+
+    justify-content: center;
+    align-content: center;
+
+    gap: 15px;
+
+    padding: 0 0 40px 0;
+}
+
+#roll-button {
+    background: #5035FF;
+    color: #FFFFFF;
+
+    height: 35px;
+    width: 90px;
+
+    font-weight: 700;
+
+    border: none;
+
+    cursor: pointer;
+
+    border-radius: 4px;
+    box-shadow: 0 3px 8px #EEEEEE;
+}
+
+#roll-button:active {
+    background: #2002CC;
+}
+
+#roll-button:focus {
+    outline: none;
 }
